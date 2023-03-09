@@ -146,6 +146,16 @@ a {
     display: flex;
     justify-content: space-between;
 }
+.image-logo {
+    padding: 0 4.2rem;
+    height: 91px;
+    display: flex;
+    align-items: center;
+}
+.image-logo:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
 
 /* ============= guides ========== */
 
