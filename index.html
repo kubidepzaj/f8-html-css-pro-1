@@ -17,20 +17,21 @@
         <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
     </head>
     <body>
-        <main>
-            <!-- header -->
-            <header class="header">
+        <main id="home">
+            <header class="fixed-header">
                 <div class="content">
                     <nav class="navbar">
                         <!-- Logo -->
-                        <img src="./assets/img/Logo.svg" alt="besnik." />
+                        <a href="#home"
+                            ><img src="./assets/img/Logo.svg" alt="besnik."
+                        /></a>
                         <!-- Navigation -->
                         <ul>
-                            <li><a href="#!">Home</a></li>
-                            <li><a href="#!">Features</a></li>
-                            <li><a href="#!">Services</a></li>
-                            <li><a href="#!">Resources</a></li>
-                            <li><a href="#!">Contact</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#Services">Services</a></li>
+                            <li><a href="#Features">Features</a></li>
+                            <li><a href="#Resources">Resources</a></li>
+                            <li><a href="#Contact">Contact</a></li>
                         </ul>
                         <!-- Action -->
                         <div class="actions">
@@ -38,7 +39,12 @@
                             <a href="#!" class="btn action-btn">Sign up</a>
                         </div>
                     </nav>
+                </div>
+            </header>
 
+            <!-- header -->
+            <header class="hero-wrap">
+                <div class="content">
                     <div class="hero">
                         <div class="info">
                             <p class="sub-title">Welcome to Besnik Agency</p>
@@ -63,7 +69,7 @@
             </header>
 
             <!-- clients -->
-            <div class="clients">
+            <div id="Services" class="clients">
                 <div class="content">
                     <div class="row">
                         <div class="desc">
@@ -186,7 +192,7 @@
             </div>
 
             <!-- feature -->
-            <div class="feature">
+            <div id="Features" class="feature">
                 <div class="content">
                     <header>
                         <h2 class="featured">Featured Properties</h2>
@@ -304,7 +310,7 @@
             </div>
 
             <!-- stats -->
-            <div class="stats">
+            <div id="Resources" class="stats">
                 <div class="content">
                     <div class="row">
                         <div class="img-block">
@@ -494,7 +500,7 @@
             </div>
 
             <!-- footer -->
-            <footer class="footer">
+            <footer id="Contact" class="footer">
                 <div class="content">
                     <div class="row row-top">
                         <div class="column">

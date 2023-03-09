@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
     /* đổ biến màu */
@@ -37,16 +41,24 @@ a {
 }
 
 /* ============= header ========== */
-.header {
+.fixed-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #e6f0ff;
+}
+
+.hero-wrap {
     position: relative;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 9rem);
 }
 
 .navbar {
     display: flex;
     align-items: center;
     padding-top: 3.8rem;
+    padding-bottom: 1.2rem;
 }
 
 .navbar ul {
@@ -76,8 +88,9 @@ a {
     padding: 1.3rem 1.6rem;
 }
 
-.hero {
-    margin-top: 13rem;
+.hero-wrap {
+    display: flex;
+     align-items: center;
 }
 
 .hero .info {
